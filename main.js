@@ -1,4 +1,4 @@
-const url = "http://www.mocky.io/v2/58fda6ce0f0000c40908b8c8";
+const url = "https://www.mocky.io/v2/58fda6ce0f0000c40908b8c8";
 const content = document.querySelector("#content");
 const placeholder = document.querySelector("#content-placeholder");
 const p1btn = document.querySelector(".page1");
