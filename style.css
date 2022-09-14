@@ -79,6 +79,10 @@ body {
 	color: whitesmoke;
 }
 
+.nav-title {
+	font-size: 2rem;
+}
+
 .pages {
 	display: flex;
 	justify-content: flex-end;
@@ -97,4 +101,17 @@ body {
 	scale: 1.5;
 	transition: all 0.2s ease-in-out;
 	background-color: lightblue;
+}
+
+.content {
+	padding: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: flex-end;
+	gap: 1rem;
+}
+
+.content h1 {
+	font-size: 1.7rem;
 }
