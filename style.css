@@ -1,0 +1,100 @@
+:root {
+	font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	height: 100%;
+	font-size: 1.6rem;
+}
+
+body {
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+	display: block;
+	max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+	isolation: isolate;
+}
+
+/* ---------GENERAL STYLING--------- */
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: "Montserrat", sans-serif;
+}
+
+.widget {
+	height: 500px;
+	background-color: rgb(204, 223, 230);
+	width: 300px;
+	border-radius: 1rem;
+}
+
+.navbar {
+	background-color: grey;
+	border-radius: 1rem 1rem 0 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 4rem;
+	padding: 1.5rem;
+	font-weight: bold;
+	color: whitesmoke;
+}
+
+.pages {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	gap: 1rem;
+}
+
+.dot {
+	height: 1rem;
+	width: 1rem;
+	background-color: black;
+	border-radius: 50%;
+	display: inline-block;
+}
+.dot:hover {
+	scale: 1.5;
+	transition: all 0.2s ease-in-out;
+	background-color: lightblue;
+}
