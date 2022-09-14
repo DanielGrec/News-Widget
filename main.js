@@ -47,7 +47,12 @@ async function getNews() {
 }
 
 async function getNewsSecond() {
-	const response = await fetch(url);
+	const response = await fetch(url, {
+		method: "POST",
+		headers: {
+			"Content-Type": "application/json",
+		},
+	});
 	const data = await response.json();
 	if (click === true) {
 		for (let i = 5; i < data.news.length - 5; i++) {
@@ -66,7 +71,12 @@ async function getNewsSecond() {
 }
 
 async function getNewsThird() {
-	const response = await fetch(url);
+	const response = await fetch(url, {
+		method: "POST",
+		headers: {
+			"Content-Type": "application/json",
+		},
+	});
 	const data = await response.json();
 	if (click === true) {
 		for (let i = 10; i < data.news.length; i++) {
